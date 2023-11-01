@@ -27,7 +27,7 @@ VALUES ("Accountant", 1, "90-100k/year"),
        ("Manufacturing Lead", 8, "40/hr"),
        ("Mergers and Acquisitions Manager", 9, "300k/year");
 
-INSERT INTO employees (first_name, last_name, job_title, manager)
+INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES ("Patrick", "Bateman", 16, 5),
        ("Zach", "Hill", 14, 3),
        ("Stefan", "Burnett", 15, 14),

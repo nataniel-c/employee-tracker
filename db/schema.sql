@@ -22,9 +22,9 @@ CREATE TABLE employees (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   first_name VARCHAR(100),
   last_name VARCHAR(100),
-  job_title INT,
-  manager INT,
-  FOREIGN KEY (job_title) 
+  role_id INT,
+  manager_id INT,
+  FOREIGN KEY (role_id) 
   REFERENCES roles(id) 
   ON DELETE SET NULL
 );
